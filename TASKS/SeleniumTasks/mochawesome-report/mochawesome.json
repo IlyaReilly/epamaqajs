@@ -1,0 +1,138 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-09-11T19:03:29.814Z",
+    "end": "2022-09-11T19:03:29.857Z",
+    "duration": 43,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "246b3df2-68f3-4e97-8067-4d49ac970593",
+      "title": "",
+      "fullFile": "C:\\js_study\\TASKS\\SeleniumTasks\\test\\icanwin.js",
+      "file": "\\test\\icanwin.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "17caa4b9-ae3f-4853-aa0e-ce5d6a196b82",
+          "title": "dscrb block",
+          "fullFile": "C:\\js_study\\TASKS\\SeleniumTasks\\test\\icanwin.js",
+          "file": "\\test\\icanwin.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"dscrb block\"",
+              "fullTitle": "dscrb block \"before each\" hook in \"dscrb block\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "214bb303-e098-4c9c-9d3e-ee4ed6f88350",
+              "parentUUID": "17caa4b9-ae3f-4853-aa0e-ce5d6a196b82",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"dscrb block\"",
+              "fullTitle": "dscrb block \"after each\" hook in \"dscrb block\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "c9beb3ee-70e2-411d-b6ff-1c1ef6f19112",
+              "parentUUID": "17caa4b9-ae3f-4853-aa0e-ce5d6a196b82",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "POM TEST",
+              "fullTitle": "dscrb block POM TEST",
+              "timedOut": false,
+              "duration": 3,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var url = 'https://pastebin.com';\nvar titlename = 'helloweb';\nvar codevalue = 'Hello from WebDriver';\n\npastebin.openURL(url);\npastebin.paste_title(titlename);\npastebin.paste_code(codevalue);\npastebin.set_exp();\npastebin.submit_n_quit();",
+              "err": {},
+              "uuid": "ecd5a759-bb12-4094-a2cc-dcd6b6807ee3",
+              "parentUUID": "17caa4b9-ae3f-4853-aa0e-ce5d6a196b82",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ecd5a759-bb12-4094-a2cc-dcd6b6807ee3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 50000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.0.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
